@@ -9,4 +9,10 @@ class AgencyProfession extends Model
 {
 	protected $table="agencies_profession";
     use HasFactory;
+
+    protected $fillable = [
+        "profession_id",
+		"agency_id",
+		"price"
+    ];
 }

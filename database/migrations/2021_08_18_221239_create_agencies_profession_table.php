@@ -17,6 +17,7 @@ class CreateAgenciesProfessionTable extends Migration
             $table->id();
             $table->integer('agency_id');
             $table->integer('profession_id');
+            $table->integer('price');
             $table->timestamps();
         });
     }
